@@ -1,0 +1,7 @@
+Microsoft Windows [Version 10.0.26200.9550]
+(c) Microsoft Corporation. All rights reserved.
+
+C:\Users\KOLKAR NISHA\OneDrive\Desktop\psql_connector_crew>code .
+
+C:\Users\KOLKAR NISHA\OneDrive\Desktop\psql_connector_crew>
+
