@@ -1,0 +1,42 @@
+Microsoft Windows [Version 10.0.26200.9550]
+(c) Microsoft Corporation. All rights reserved.
+
+C:\Users\KOLKAR NISHA\OneDrive\Desktop\psql_connector_crew>"c:\Users\KOLKAR NISHA\OneDrive\Desktop\psql_connector_crew\crew\Scripts\activate.bat"
+
+(crew) C:\Users\KOLKAR NISHA\OneDrive\Desktop\psql_connector_crew>crew\Scripts\activate
+
+(crew) C:\Users\KOLKAR NISHA\OneDrive\Desktop\psql_connector_crew>pip install mysql-connector-python
+Collecting mysql-connector-python
+  Downloading mysql_connector_python-26.7.0-cp311-cp311-win_amd64.whl.metadata (11 kB)
+Downloading mysql_connector_python-26.7.0-cp311-cp311-win_amd64.whl (17.7 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 17.7/17.7 MB 1.3 MB/s eta 0:00:00
+Installing collected packages: mysql-connector-python
+Successfully installed mysql-connector-python-26.7.0
+
+[notice] A new release of pip is available: 24.0 -> 26.2.1
+[notice] To update, run: python.exe -m pip install --upgrade pip
+
+(crew) C:\Users\KOLKAR NISHA\OneDrive\Desktop\psql_connector_crew>pip show mysql-connector-python
+Name: mysql-connector-python
+Version: 26.7.0
+Summary: A self-contained Python driver for communicating with MySQL servers, using an API that is compliant with the Python Database API Specification v2.0 (PEP 249).
+Home-page: 
+Author: Oracle and/or its affiliates
+Author-email: 
+License: GNU GPLv2 (with FOSS License Exception)
+Location: C:\Users\KOLKAR NISHA\OneDrive\Desktop\psql_connector_crew\crew\Lib\site-packages
+Requires: 
+Required-by: 
+
+(crew) C:\Users\KOLKAR NISHA\OneDrive\Desktop\psql_connector_crew>python app.py
+
+(crew) C:\Users\KOLKAR NISHA\OneDrive\Desktop\psql_connector_crew>python app.py
+
+(crew) C:\Users\KOLKAR NISHA\OneDrive\Desktop\psql_connector_crew>^A
+
+
+
+  PS C:\Users\KOLKAR NISHA\OneDrive\Desktop\psql_connector_crew> (Set-ExecutionPolicy -Scope Process -ExecutionPolicy RemoteSigned) ; (& "c:\Users\KOLKAR NISHA\OneDrive\Desktop\psql_connector_crew\crew\Scripts\Activate.ps1")
+(crew) PS C:\Users\KOLKAR NISHA\OneDrive\Desktop\psql_connector_crew> & "c:\Users\KOLKAR NISHA\OneDrive\Desktop\psql_connector_crew\crew\Scripts\python.exe" "c:/Users/KOLKAR NISHA/OneDrive/Desktop/psql_connector_crew/app.py"
+connected
+(crew) PS C:\Users\KOLKAR NISHA\OneDrive\Desktop\psql_connector_crew> 
