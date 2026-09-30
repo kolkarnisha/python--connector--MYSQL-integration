@@ -8,11 +8,15 @@ connection=mysql.connector.connect(host="127.0.0.1",
 print("connected")
 cursor=connection.cursor()
 cursor.execute("select * from customers")
+# sends this sql statement frpm python to mysql and execute it
 rows=cursor.fetchall()
+#fetch all rows returned by that query
 for i in rows:
     print(i)
 cursor.close()
 connection.close()
+''' connection / python execute() accepts the sql
+operation and optional parameters'''
 
 
 
