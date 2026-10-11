@@ -12,3 +12,4 @@ VALUES
 ('Priya', 'priya@gmail.com', 'Hyderabad'),
 ('Aishwarya', 'aishwarya@gmail.com', 'Chennai');
 select * from customers;
+
